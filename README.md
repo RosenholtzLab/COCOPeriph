@@ -7,6 +7,9 @@ Harrington, Anne, et al. "COCO-Periph: Bridging the Gap Between Human and Machin
 Paper Here:  
 [https://openreview.net/forum?id=MiRPBbQNHv&noteId=hPqieNU8QA](https://openreview.net/forum?id=MiRPBbQNHv&noteId=hPqieNU8QA)
 
-Psychophysics Repo Here:
+Human Psychophysics Experiment Repo (Matlab PsychToolBox) Here:
 [https://github.com/RosenholtzLab/CocoPsychExp](https://github.com/RosenholtzLab/CocoPsychExp)
+
+Uniform Texture Tiling Model (Matlab) Here:
+[https://github.com/RosenholtzLab/TTM/tree/dataset_generation](https://github.com/RosenholtzLab/TTM/tree/dataset_generation)
 
