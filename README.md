@@ -16,12 +16,14 @@ Uniform Texture Tiling Model (Matlab) Here:
 Dataset and Psychophysics Experiment Images Hosted Here:
 [https://data.csail.mit.edu/coco_periph/](https://data.csail.mit.edu/coco_periph/) (put them in ./psychophysics_experiment/stimuli) and in (./psychophysics_experiment/human_results)
 
-List of Notebooks:
-- SewMongrelExperiment.ipynb  Use this to create pseudofoveated images by 'sewing' image transforms at increasing eccentricities together. This notebook specifically creates the pseudofoveated images used in the human and machine psychophysics experiments. You can re-create these pseudofoveated images with this notebook OR you can download pre-generated ones (here)[https://data.csail.mit.edu/coco_periph/]
-- CombineHumanData.ipynb Use this to analyize raw human experiment data (download data from (here)[https://data.csail.mit.edu/coco_periph/]
-- CompareHumanMachinePsychophysics.ipynb Use this to compare data from machine psychophysics to human psychcophysics to creates figures from paper.
-- Get AP Vals.ipynb Use this to get and evalution results from pkl files.
-
+Codebase Atlas:
+- *SewMongrelExperiment.ipynb*  Use this to create pseudofoveated images by 'sewing' image transforms at increasing eccentricities together. This notebook specifically creates the pseudofoveated images used in the human and machine psychophysics experiments. You can re-create these pseudofoveated images with this notebook OR you can download pre-generated ones (here)[https://data.csail.mit.edu/coco_periph/]
+- *CombineHumanData.ipynb* Analyize raw human experiment data (download data from (here)[https://data.csail.mit.edu/coco_periph/])
+- *CompareHumanMachinePsychophysics.ipynb* Compare data from machine psychophysics to human psychcophysics to creates figures from paper.
+- *Get AP Vals.ipynb* Read evalution results from pkl files.
+- *corruption/finetune_evalution(_corruption,_trainingset,_plot).py* Evaluates various models for corruption robustness
+- *Detectron2CorruptionPlot.ipynb* Plots corruption results
+- 
 Model Nomenclature for Train/Finetuned RCNN Models:
 -1: Baseline
 -2: Trained from Scratch on all eccentricities images from COCO-Periph training set
