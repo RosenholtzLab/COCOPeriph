@@ -18,13 +18,14 @@ Dataset and Psychophysics Experiment Images Hosted Here:
 
 Codebase Atlas:
 - *SewMongrelExperiment.ipynb*  Use this to create pseudofoveated images by 'sewing' image transforms at increasing eccentricities together. This notebook specifically creates the pseudofoveated images used in the human and machine psychophysics experiments. You can re-create these pseudofoveated images with this notebook OR you can download pre-generated ones (here)[https://data.csail.mit.edu/coco_periph/]
+- train_finetune/*.py Trains, Finetunes, and evaluates models on COCO-Periph
+- *Get AP Vals.ipynb* Read evalution results from pkl files.
 - *CombineHumanData.ipynb* Analyize raw human experiment data (download data from (here)[https://data.csail.mit.edu/coco_periph/])
 - *CompareHumanMachinePsychophysics.ipynb* Compare data from machine psychophysics to human psychcophysics to creates figures from paper.
-- *Get AP Vals.ipynb* Read evalution results from pkl files.
 - *corruption/finetune_evalution(_corruption,_trainingset,_plot).py* Evaluates various models for corruption robustness
 - *Detectron2CorruptionPlot.ipynb* Plots corruption results
-- train_finetune/*.py Trains, Finetunes, and evaluates models on COCO-Periph
-
+- *DemoPseudofoveatedRings.ipynb* Creates Paper demo plot with rings overlaying image
+- *MakeTeaserFigure.ipynb* Creates paper teaser figure with models demod on 
 
 Model Nomenclature for Train/Finetuned RCNN Models:
 -1: Baseline
